@@ -1,6 +1,5 @@
 from main import Specialization
 from classes import institute
-from functions import getSpec
 import unittest
 
 
