@@ -12,3 +12,5 @@ class TestGetStudent(unittest.TestCase):
     def test_one(self):  # Корректное количество строк
         self.assertEqual(len(self.inst.get_student(self.stud.code)), 1)
 
+if __name__ == "__main__":
+    unittest.main()
