@@ -18,5 +18,9 @@ class TestGetExam(unittest.TestCase):
         res = []
         res.append(self.inst.get_exam(self.gr.name,self.su.name,self.da))
         self.assertEqual(len(res), 1)
+        
+if __name__ == "__main__":
+    unittest.main()
+
 
 
