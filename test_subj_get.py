@@ -12,5 +12,7 @@ class TestGetSubject(unittest.TestCase):
 
     def test_one(self):  # Корректное количество строк
         self.assertEqual(len(self.inst.get_subject(self.subj.name)), 1)
-
+        
+if __name__ == "__main__":
+    unittest.main()
 
